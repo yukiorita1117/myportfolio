@@ -460,6 +460,26 @@ span.white {
 ------------------------------------*/
 
 @media (max-width: 767px) {
+  .fixed-top {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #00F1C9;
+    border-radius: 400%;
+    z-index: -1;
+    margin-top: -99px;
+    margin-left: -101px;
+}
+
+.md-green {
+  width: 120px;
+  height: 120px;
+  background: #00F1C9;
+  border-radius: 12px;
+  margin-left: -123px;
+  margin-top: -49px;
+}
+
 header h1 {
     font-size: 64px;
 }
