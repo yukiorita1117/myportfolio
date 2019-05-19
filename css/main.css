@@ -196,8 +196,6 @@ section.san-francisco {
 
 
 
-
-
 .date {
   margin-top: 400px;
   font-size: 48px;
@@ -278,7 +276,7 @@ code {
 
 .share {
   position: relative;
-  top: -240px;
+  top: 105px;
 }
 .share a {
   font-size: 34px;
@@ -288,6 +286,27 @@ code {
 }
 .share a:hover span {
   margin-left: 10px;
+}
+
+.contact{
+  position: relative;
+    margin-top: 100px;
+    /* width: 1000px; */
+    height: 270px;
+    background-color: #00F1C9;
+}
+.contact a {
+  font-size: 34px;
+}
+.contact a span {
+  transition: all 400ms cubic-bezier(0.68, -0.1, 0.265, 1.55);
+}
+.contact a:hover span {
+  margin-left: 10px;
+}
+
+.contact .container .row{
+  margin-top: 40px;
 }
 
 a.dam,
@@ -382,6 +401,7 @@ span.white {
 
 .network {
   margin-bottom: 120px;
+  margin-top: 145px;
 }
 
 .network-card {
@@ -437,6 +457,9 @@ span.white {
   background-color: #5000F1;
 }
 
+.work-title{
+margin-top: 100px;
+}
 
 
 
@@ -460,6 +483,11 @@ span.white {
 ------------------------------------*/
 
 @media (max-width: 767px) {
+
+  .col-md-6 p{
+    font-size: 16px;
+  }
+
   .fixed-top {
     position: absolute;
     width: 400px;
@@ -507,7 +535,7 @@ header .title a {
   height: 60px;
   background: #5000F1;
   border-radius: 12px;
-  margin-left: -30px;
+  margin-left: 49px;
   margin-top: 400px;
 }
 .temp {
@@ -536,7 +564,7 @@ h4 {
 }
 
 .share {
-  margin-top: 360px;
+  margin-top: -60px;
 }
 
 .network {
@@ -557,6 +585,9 @@ h4 {
   padding: 2rem;
 }
 
+.col-md-4 h1{
+  margin-bottom: 30px;
+}
 
 
 }
